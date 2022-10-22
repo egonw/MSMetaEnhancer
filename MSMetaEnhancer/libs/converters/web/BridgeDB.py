@@ -54,7 +54,7 @@ class BridgeDB(WebConverter):
 
     async def from_hmdbid(self, hmdbid):
         """
-        Convert HMDB ID to all possible IDs using BridgeDB web service
+        Convert HMDB ID to all possible IDs using BridgeDb web service
 
         :param hmdbid: given HMDB ID number
         :return: obtained IDs
@@ -64,7 +64,7 @@ class BridgeDB(WebConverter):
 
     async def from_pubchemid(self, pubchemid):
         """
-        Convert PubChem ID to all possible IDs using BridgeDB web service
+        Convert PubChem ID to all possible IDs using BridgeDb web service
 
         :param pubchemid: given PubChem ID number
         :return: obtained IDs
@@ -74,7 +74,7 @@ class BridgeDB(WebConverter):
 
     async def from_chemspiderid(self, chemspiderid):
         """
-        Convert ChemSpider ID to all possible IDs using BridgeDB web service
+        Convert ChemSpider ID to all possible IDs using BridgeDb web service
 
         :param chemspiderid: given ChemSpider ID number
         :return: obtained IDs
@@ -84,7 +84,7 @@ class BridgeDB(WebConverter):
 
     async def from_wikidataid(self, wikidataid):
         """
-        Convert WikiData ID to all possible IDs using BridgeDB web service
+        Convert WikiData ID to all possible IDs using BridgeDb web service
 
         :param wikidataid: given WikiData ID number
         :return: obtained IDs
@@ -94,7 +94,7 @@ class BridgeDB(WebConverter):
 
     async def from_chebiid(self, chebiid):
         """
-        Convert ChEBI ID to all possible IDs using BridgeDB web service
+        Convert ChEBI ID to all possible IDs using BridgeDb web service
 
         :param chebiid: given ChEBI ID number
         :return: obtained IDs
@@ -104,7 +104,7 @@ class BridgeDB(WebConverter):
 
     async def from_keggid(self, keggid):
         """
-        Convert KEGG ID to all possible IDs using BridgeDB web service
+        Convert KEGG ID to all possible IDs using BridgeDb web service
 
         :param keggid: given KEGG ID number
         :return: obtained IDs
@@ -119,9 +119,9 @@ class BridgeDB(WebConverter):
 
     def parse_attributes(self, response):
         """
-        Parse all available attributes obtained using BridgeDB.
+        Parse all available attributes obtained using BridgeDb.
 
-        :param response: BridgeDB response to given ID
+        :param response: BridgeDb response to given ID
         :return: all parsed data
         """
         result = dict()
